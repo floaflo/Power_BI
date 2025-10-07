@@ -14,28 +14,28 @@ In particolare, ho:
 
 Controllato e gestito i valori nulli e duplicati;
 
+Scelto solo le colonne realmente utili per l’analisi;
+
 Applicato la funzione Trim e la capitalizzazione per rendere i testi coerenti;
 
 Corretto i formati di data, numeri e codici postali;
 
 Modificato il file di geolocalizzazione direttamente in Excel, usando XLOOKUP per associare i nomi completi agli stati;
 
-Caricato poi il file aggiornato su Power Query e unito (merge) la tabella con le sigle degli stati;
-
-Scelto solo le colonne realmente utili per l’analisi;
+Caricato poi il file aggiornato su Power Query e unito (merge) la tabella con le sigle degli stati; merge anche per i prodotti per la traduzione in inglese.
 
 Sostituito i valori nulli nella categoria dei prodotti con “Unknown”, in modo da non perdere informazioni sugli ordini senza categoria.
 
 Analisi e creazione della dashboard
 
 Una volta pronti i dati, ho creato le principali misure DAX per analizzare le performance (ricavi totali, numero ordini, soddisfazione, ecc.).
-Ho poi costruito la dashboard dividendo il report in pagine tematiche, ognuna dedicata a un aspetto specifico come vendite, clienti, prodotti e andamento temporale.
+Ho poi costruito la dashboard dividendo il report in pagine tematiche, ognuna dedicata a un aspetto specifico come vendite, ricavi e recensioni, una overview e una conclusione (wrap up).
 
 Le visualizzazioni includono:
 
-Grafici interattivi e KPI principali;
+Grafici interattivi;
 
-Slicer per filtrare i dati in tempo reale;
+Slicer per filtrare i dati;
 
 Bookmarks per rendere la navigazione più intuitiva;
 
